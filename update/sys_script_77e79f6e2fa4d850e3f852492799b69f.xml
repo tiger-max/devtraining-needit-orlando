@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_58872_needit_u_new_demo_tables</collection>
+        <condition/>
+        <description>Notify CI owners if a CI is added as an configuration item a demo request</description>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_58872_needit_u_new_demo_tables">cmdb_ciVALCHANGES^EQ<item endquery="false" field="cmdb_ci" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Send notification</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	var rec = "";
+	var gr = new GlideRecord("cmdb_ci_network_adaptor");
+gr.addQuery("cmdb_ci", current.cmdb_ci);
+gr.query();
+if (gr.next()) {
+   rec = gr.owned_by;
+}   
+
+	gs.eventQueue("x_58872_needit.notify.ci.owner",current,gs.getUserID(),gs.getUserName());
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>amit.shishodia</sys_created_by>
+        <sys_created_on>2020-05-06 14:21:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>77e79f6e2fa4d850e3f852492799b69f</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Send notification</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_77e79f6e2fa4d850e3f852492799b69f</sys_update_name>
+        <sys_updated_by>amit.shishodia</sys_updated_by>
+        <sys_updated_on>2020-05-07 06:56:15</sys_updated_on>
+        <template/>
+        <when>async</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=77e79f6e2fa4d850e3f852492799b69f"/>
+</record_update>
