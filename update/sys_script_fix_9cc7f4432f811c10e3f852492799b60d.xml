@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <before>false</before>
+        <description>Update Timezone and Country  when a user change location</description>
+        <flush_cache>true</flush_cache>
+        <name>Update Timezone and Country </name>
+        <record_for_rollback>false</record_for_rollback>
+        <run_once>true</run_once>
+        <script><![CDATA[var gr = new GlideRecord('sys_user');
+gr.addQuery('sys_id','=','1ebf989e2fc0d410e3f852492799b6ab');
+gr.query();
+current.ph_number = 1111111111;]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>amit.shishodia</sys_created_by>
+        <sys_created_on>2020-06-01 12:07:54</sys_created_on>
+        <sys_id>9cc7f4432f811c10e3f852492799b60d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Update Timezone and Country </sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_fix_9cc7f4432f811c10e3f852492799b60d</sys_update_name>
+        <sys_updated_by>amit.shishodia</sys_updated_by>
+        <sys_updated_on>2020-06-01 12:08:19</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

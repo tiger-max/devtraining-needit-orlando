@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="u_what_needed" table="x_58872_needit_needit" version="3">
+        <sys_choice_set action="DELETE">
+            <element>u_what_needed</element>
+            <name>x_58872_needit_needit</name>
+            <sys_class_name/>
+            <sys_created_by/>
+            <sys_created_on/>
+            <sys_id/>
+            <sys_mod_count/>
+            <sys_name/>
+            <sys_package/>
+            <sys_policy/>
+            <sys_scope/>
+            <sys_update_name/>
+            <sys_updated_by/>
+            <sys_updated_on>2020-06-01 07:43:46</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application/>
+        <file_path/>
+        <instance_id>62f70b09db037b4042b321c405961980</instance_id>
+        <instance_name>dev90374</instance_name>
+        <name>sys_choice_x_58872_needit_needit_u_what_needed</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="DELETE" field="u_what_needed" table="x_58872_needit_needit" version="3"><sys_choice_set action="DELETE"><element>u_what_needed</element><name>x_58872_needit_needit</name><sys_class_name/><sys_created_by/><sys_created_on/><sys_id/><sys_mod_count/><sys_name/><sys_package/><sys_policy/><sys_scope/><sys_update_name/><sys_updated_by/><sys_updated_on>2020-06-01 07:43:46</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>-429457270</payload_hash>
+        <record_name>Task.u_what_needed</record_name>
+        <reverted_from/>
+        <source>418e1b7a2f8dd810e3f852492799b6b6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>amit.shishodia</sys_created_by>
+        <sys_created_on>2020-06-01 07:43:46</sys_created_on>
+        <sys_id>e39dfb7e2fcdd810e3f852492799b642</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1726ed620030000001</sys_recorded_at>
+        <sys_updated_by>amit.shishodia</sys_updated_by>
+        <sys_updated_on>2020-06-01 07:43:46</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>6f9dfb7eb5cdd8103148923b3be26241</update_guid>
+        <update_guid_history>6f9dfb7eb5cdd8103148923b3be26241:-429457270,239dfb7ee8cdd8108b4f358197f4063d:-915848390,a79dfb7e6dcdd81075752d6540cfe738:367156690,2f9dfb7ec9cdd810703266b315fbd333:-1223568115,a39dfb7e82cdd8105b1e2c39659ac32f:1500617887,2b9dfb7eb0cdd8101a97d0453ecf082a:1827197514,af9dfb7ea3cdd810fd6c26c85fb41f25:-2088659708,b37e93ba398dd810a3877afd45095292:0,676e9f7a9c8dd810c8a140804dc53702:799966726,ef6e5f7abf8dd810a518ce6b29927ffc:-915848390,676e5f7ae88dd8101fdefdc7a73b24f8:-567701384,eb6e5f7adb8dd810134c4a41967f87f3:-1423691141,636e5f7acf8dd810ec9c7f0aa21e2aef:-709049971,e76e5f7aa18dd8102df8602fc4e0c2ea:-1389990280,ef6e5f7a198dd81071c26fa91a4d26cc:221069324,676e5f7a3d8dd810fc24d57d80e4dfc8:115963504,eb6e5f7ab28dd810fff58c04c64f09c3:-495418659,8b46b8c2770d5810f525b258f505bf73:0,753674c2570d5810379f73fb43a1b350:-945939364,393674c2f60d58100bc021a7fff9b94c:-915848390,f53674c2100d581082a922d81d282149:-567701384,b53674c2bb0d5810d5690d444ee94e46:-1423691141,753674c2de0d58102a367714ce897343:-709049971,353674c2df0d58100abb5ec3a28a9940:-1389990280,f13674c26c0d58103d8efdf95689873d:221069324,b13674c24c0d5810c005b97ee4f2aa3a:115963504,713674c2440d5810ee9464bdb5aa3e37:-495418659,898875d5e881181012b1d620f63280ca:0,0c7831d55f81181074e213cb0ed6c570:2026811013,cc7831d5f4811810342e12976c55e46c:-915848390,8c7831d553811810f593a5f9b2cca969:-567701384,4c7831d5d881181037eacc1a3dd8da66:-1423691141,0c7831d56a8118103586359bb359e263:-709049971,c87831d5a3811810825dd38af8ee9260:-1389990280,887831d593811810ee3efcf4cac9e85d:221069324,047831d5958118106fd8fb51c5911b35:115963504,c07831d52e811810460bab910cde8c32:-495418659,482dffa0492c94501de64e78d3e7fb1a:0,802dbfa03c2c94508bff5a11382caef1:2037410899</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>amit.shishodia</sys_created_by>
+        <sys_created_on>2020-06-01 07:43:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>0aad7f7e2fcdd810e3f852492799b6d1</sys_id>
+        <sys_metadata>0aad7f7e2fcdd810e3f852492799b6d1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_what_needed</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_choice_x_58872_needit_needit_u_what_needed</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_58872_needit_needit_u_what_needed">e39dfb7e2fcdd810e3f852492799b642</sys_update_version>
+        <sys_updated_by>amit.shishodia</sys_updated_by>
+        <sys_updated_on>2020-06-01 07:43:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
